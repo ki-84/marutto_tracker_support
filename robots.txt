@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ki-84.github.io/marutto_tracker_support/sitemap.xml
