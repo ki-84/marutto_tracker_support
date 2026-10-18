@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="15 44 110 108" width="110" height="108" fill="none">
+  <!-- Exact neutral body and face geometry from GhostDrawing (bodyW=100, bodyH=130).
+       Source: MaruttoTracker/Views/Shared/GhostShapes.swift and CharacterView.swift.
+       Only the smile uses the app's happy expression. Keep both axes at equal scale. -->
+  <path d="M20 136V100a50 50 0 0 1 100 0v36c0 10-33.3333 10-33.3333 0 0-5-33.3334-5-33.3334 0 0 10-33.3333 10-33.3333 0Z"
+        fill="#fff" stroke="#8c94ad" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="#fff" stroke="#8c94ad" stroke-width="1.5">
+    <path d="M37 107h10q6 7 0 14H37"/>
+    <path d="M103 107H93q-6 7 0 14h10"/>
+  </g>
+  <g fill="#262633">
+    <circle cx="61" cy="86" r="3.5"/>
+    <circle cx="79" cy="86" r="3.5"/>
+  </g>
+  <g fill="#ffb3b8" opacity=".6">
+    <circle cx="48" cy="96" r="9"/>
+    <circle cx="92" cy="96" r="9"/>
+  </g>
+  <path d="M63 97.35Q70 102.32 77 97.35" stroke="#262633" stroke-width="2.2"/>
+</svg>
