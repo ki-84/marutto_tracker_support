@@ -12,6 +12,20 @@ document.querySelectorAll('.demo-button').forEach((button) => {
   });
 });
 
+// A sample of the app's real, prewritten messages. Keep all four readable without JS.
+document.querySelectorAll('.chat-example').forEach((example) => {
+  const panels = [...example.querySelectorAll('.chat-panel')];
+  const buttons = [...example.querySelectorAll('[data-chat-choice]')];
+  const select = (index) => {
+    panels.forEach((panel, i) => { panel.hidden = i !== index; });
+    buttons.forEach((button, i) => button.setAttribute('aria-pressed', String(i === index)));
+    example.dataset.chatMood = String(index);
+  };
+  select(0);
+  example.classList.add('is-interactive');
+  buttons.forEach((button, index) => button.addEventListener('click', () => select(index)));
+});
+
 // Reveal motion only when supported, and always respect the system motion preference.
 if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const observer = new IntersectionObserver((entries) => {
