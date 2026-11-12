@@ -280,6 +280,7 @@ html[lang=ar] .hero h1, html[lang=th] .hero h1 { font-family: inherit; font-size
 /* Anime campaign: luminous travel worlds, bold type, and the same friendly mascot. */
 :root { --purple:#7439c5; --ink:#352047; --paper:#fff9fc; --gold:#ffe09b; }
 body { background:var(--paper); }
+html { overflow-x:clip; }
 .campaign-bar { background:linear-gradient(110deg,#ffb3d7,#ffe6a1,#b6f1ec); color:#5a2e68; border-bottom:1px solid #bc8dff44; font-weight:800; letter-spacing:.13em; }
 .header { color:#532669; isolation:isolate; border-bottom:1px solid #dcc5ff26; }
 .header::before { content:""; position:absolute; inset:0 calc((100% - 100vw) / 2); background:#fff7fc; z-index:-1; }
