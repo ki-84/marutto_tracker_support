@@ -276,3 +276,121 @@ html[lang=ar] .hero h1, html[lang=th] .hero h1 { font-family: inherit; font-size
   .companion-benefits p { grid-column: 2; font-size: 12px; }
   .hero .floating-label { font-size: 9px; }
 }
+
+/* Anime campaign: luminous travel worlds, bold type, and the same friendly mascot. */
+:root { --purple:#7439c5; --ink:#352047; --paper:#fff9fc; --gold:#ffe09b; }
+body { background:var(--paper); }
+.campaign-bar { background:linear-gradient(110deg,#ffb3d7,#ffe6a1,#b6f1ec); color:#5a2e68; border-bottom:1px solid #bc8dff44; font-weight:800; letter-spacing:.13em; }
+.header { color:#532669; isolation:isolate; border-bottom:1px solid #dcc5ff26; }
+.header::before { content:""; position:absolute; inset:0 calc((100% - 100vw) / 2); background:#fff7fc; z-index:-1; }
+.header .language-trigger { border-color:#cb9bc5; background:#ffffff80; }
+.header .main-nav a::after { background:var(--gold); }
+.brand img { box-shadow:0 0 0 1px #efd9ff55,0 0 22px #c28aff45; }
+.brand small { color:#d6bced; }
+.hero { position:relative; isolation:isolate; min-height:810px; padding-block:65px 85px; }
+.hero::before { content:""; position:absolute; inset:0 calc((100% - 100vw) / 2); background:radial-gradient(ellipse at 85% 42%,#d8f8ff 0%,#ffe1ed 45%,#fff7d4 85%); z-index:-2; }
+.hero-copy { color:#59236e; }
+.hero h1 { font-size:clamp(42px,4.45vw,68px); line-height:1.38; letter-spacing:-.055em; text-shadow:0 3px 0 #ffffffc7; }
+.hero h1 em { color:#e53e8a; background:linear-gradient(transparent 83%,#ffcf7566 83%); }
+.hero .eyebrow { background:#ffffffa8; color:#8b3c79; border-color:#e8a5cc; box-shadow:0 0 28px #b36fff16; font-weight:800; }
+.hero .eyebrow>span { background:#ffcf89; box-shadow:0 0 12px #ffd887; }
+.hero .lead { color:#654470; font-size:15px; line-height:2; }
+.hero .download-note { color:#7a5b80; }
+.hero .discover { color:#713d83; font-weight:700; }
+.hero .discover>span { border-color:#c592c7; }
+.store-button { background:linear-gradient(115deg,#ffeaa6,#ffb5ca); border:1px solid #fff0ba; color:#37164b; box-shadow:0 5px 0 #b56198,0 10px 32px #e986ca40; font-weight:850; }
+.store-button:hover { background:linear-gradient(115deg,#fff0bc,#ffcadf); box-shadow:0 7px 0 #b56198,0 14px 36px #e986ca55; }
+.hero .store-button { min-height:78px; border-radius:18px; }
+.hero-art { height:610px; }
+.campaign-illustration { width:1080px; inset-inline-end:-210px; top:-75px; opacity:.98; -webkit-mask-image:radial-gradient(ellipse at 55% 50%,#000 38%,transparent 73%); mask-image:radial-gradient(ellipse at 55% 50%,#000 38%,transparent 73%); -webkit-mask-composite:source-over; mask-composite:add; }
+.hero-phone { width:226px; left:58%; top:20px; z-index:2; filter:drop-shadow(0 15px 22px #10042655); }
+.phone { border:2px solid #f2cfff; box-shadow:0 0 0 3px #8652b8,0 23px 55px #28123e35; }
+.hero-mascot { width:248px; left:-35px; bottom:5px; filter:drop-shadow(0 15px 23px #71368930); }
+.ghost { aspect-ratio:1; object-fit:contain; }
+.hero-spark { color:var(--gold); filter:drop-shadow(0 0 12px #ffdaa5); }
+.reward-sticker { background:linear-gradient(140deg,#fff4b8,#ffcc7c); color:#522167; border:3px solid #fff4d8; width:132px; height:132px; box-shadow:0 0 0 7px #fff0bd22,0 10px 30px #71368935; transform:rotate(8deg); }
+.reward-sticker strong { font-family:inherit; font-size:51px; font-weight:900; }
+.reward-sticker span { font-weight:750; font-size:10px; }
+.hero .floating-label { background:#fffbf0; border:2px solid #f3cf8e; box-shadow:0 8px 24px #170c354d; font-weight:700; bottom:-12px; }
+.proof-strip { background:linear-gradient(110deg,#ffdf93,#ffd3e8,#d8c4ff); color:#442256; border-block:2px solid #fff0c0; }
+.proof-strip strong { color:#5d238d; font-weight:900; }
+.proof-strip .wrap>div+div { border-color:#8d508a35; }
+.companion { background:radial-gradient(ellipse at 80% 20%,#e8d1ff,#fbf7ff 65%); border-bottom:1px solid #e1c7f0; }
+.companion-copy h2,.feature-copy h2,.intro h2 { font-weight:850; letter-spacing:-.045em; }
+.chat-example { border:2px solid #c79bed; box-shadow:10px 12px 0 #ebdcfa,0 24px 50px #62348215; }
+.chat-stage { background:radial-gradient(ellipse at 80% 85%,#b292ef22,transparent 60%); }
+.chat-dialog blockquote { font-weight:750; }
+.chat-controls button[aria-pressed=true] { background:#763caa; border-color:#763caa; color:white; }
+.companion-benefits article { border:1px solid #d7bce8; box-shadow:0 8px 0 #eadbf47a; }
+.feature-visual { border:2px solid #e1b7f5; box-shadow:0 20px 55px #743b9c15; }
+.feature-visual.mint { background:radial-gradient(circle at 20% 20%,#b7f9e9,#d5c3fb 80%); }
+.feature-visual.peach { background:radial-gradient(circle at 80% 20%,#ffe7b2,#ffcbe4 75%); }
+.visual-number { color:#7136a72b; font-weight:900; }
+.section-kicker { color:#8244ac; font-weight:800; letter-spacing:.15em; }
+.collection { background:linear-gradient(145deg,#c9f8ed,#fff0c4 45%,#ffd5e9); color:#592c70; border-block:2px solid #f4b3d3; }
+.collection .section-kicker { color:#bb3c85; }
+.collection h2 { color:#59236e; font-weight:850; }
+.collection-count strong { color:#e24a97; font-family:inherit; font-weight:900; text-shadow:0 4px 0 #ffffffcc; }
+.collection-count p,.collection-details p,.collection-screen p { color:#684d78; }
+.collection-details>div { border-color:#ffffffa8; background:#ffffff60; }
+.photo-gallery figure { border:1px solid #fff0cf; box-shadow:0 15px 35px #0d032e70; color:#5c3d66; }
+.collection-screen .ghost { filter:drop-shadow(0 8px 16px #0c012e44); }
+.reward-invite { background:linear-gradient(135deg,#ffe7ad,#ffd1e7 60%,#d3f6f2); color:#59236e; border-bottom:2px solid #f3b5d5; }
+.reward-invite .section-kicker { color:#bd3c84; }
+.reward-invite p { color:#684d78; }
+.reward-world { border:2px solid #f4d5a2; box-shadow:0 20px 45px #17062d66; }
+.reward-world .ghost { filter:drop-shadow(0 10px 16px #260b5760); }
+.detail-card { border:1px solid #dfc4ed; box-shadow:0 9px 0 #f0e5f7; }
+.final-cta { position:relative; isolation:isolate; color:#59236e; background:#fff2c9; overflow:hidden; }
+.final-cta::before { content:""; position:absolute; inset:0; background:linear-gradient(#fff8dbe8,#ffe5e7cf),url('campaign-daylight.webp') center/cover; z-index:-1; }
+.final-cta .final-orb { background:#d59aff20; filter:blur(25px); }
+.final-cta h2 { color:#59236e; font-weight:900; }
+.final-cta p { color:#6d4b7a; }
+.final-cta .section-kicker { color:#bd3c84; }
+.final-cta .download-note { color:#765a83; }
+.final-mascot .ghost { width:150px; }
+.footer { padding-block:48px 42px; }
+.footer .brand small { color:#755583; }
+.mobile-download { background:#fff8fbe8; border-top:1px solid #e4aad577; backdrop-filter:blur(18px); }
+@media(max-width:1000px) {
+  .hero { min-height:750px; }
+  .hero-art { height:570px; }
+  .hero-mascot { width:200px; left:-30px; }
+  .hero-phone { width:205px; left:56%; }
+  .reward-sticker { width:105px; height:105px; right:-5px; }
+  .reward-sticker strong { font-size:40px; }
+}
+@media(max-width:760px) {
+  .hero { display:flex; flex-direction:column; gap:22px; min-height:auto; padding-block:38px 55px; text-align:center; }
+  .hero-copy { width:100%; }
+  .hero .eyebrow { justify-content:center; }
+  .hero h1 { font-size:clamp(36px,7.7vw,56px); line-height:1.4; }
+  .hero .lead { font-size:14px; margin-inline:auto; }
+  .hero-art { width:100%; max-width:470px; height:540px; margin-inline:auto; }
+  .hero-phone { width:205px; top:15px; left:59%; }
+  .hero-mascot { width:210px; bottom:20px; left:0; }
+  .campaign-illustration { width:860px; inset-inline-end:-185px; top:-25px; }
+  .reward-sticker { width:108px; height:108px; right:0; top:0; }
+  .hero .floating-label { bottom:-15px; font-size:10px; max-width:95%; white-space:normal; }
+  .collection { padding-block:65px; }
+  .header .brand small { display:none; }
+  .chat-example { box-shadow:6px 8px 0 #ebdcfa; }
+}
+@media(max-width:420px) {
+  .hero-art { height:490px; }
+  .hero-phone { width:180px; left:61%; }
+  .hero-mascot { width:178px; bottom:35px; }
+  .reward-sticker { width:92px; height:92px; }
+  .reward-sticker strong { font-size:34px; }
+  .reward-sticker span { font-size:8px; }
+}
+@media(prefers-reduced-motion:reduce) { .hero-phone { animation:none; } }
+
+.header .brand small { color:#95698c; }
+
+@font-face {
+  font-family:"Marutto Rounded"; src:url("fonts/marutto-rounded-black.woff") format("woff");
+  font-style:normal; font-weight:900; font-display:swap;
+}
+:lang(ja) h1,:lang(ja) h2 { font-family:"Marutto Rounded","Hiragino Maru Gothic ProN",sans-serif; font-weight:900; }
+.hero h1 { -webkit-text-stroke:5px white; paint-order:stroke fill; text-shadow:0 4px 0 #d6aad63b; }
